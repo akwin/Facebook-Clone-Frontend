@@ -1,4 +1,4 @@
-# Facebook-Clone-Frontend
+# Facebook Clone Frontend
 Facebook clone frontend using React.
 
 [Screenshots](https://imgur.com/a/gtUK3k2)
