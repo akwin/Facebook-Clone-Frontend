@@ -1,4 +1,5 @@
 import React from 'react';
+import moment from 'moment';
 
 import Button from '../../Button/Button';
 import './Post.css';
@@ -7,7 +8,7 @@ const post = props => (
   <article className="post">
     <header className="post__header">
       <h3 className="post__meta">
-        Posted by {props.author} on {props.date}
+        Posted by {props.author}, {moment(props.date).fromNow()}
       </h3>
       <h1 className="post__title">{props.title}</h1>
     </header>

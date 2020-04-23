@@ -2,8 +2,9 @@
     width: 90%;
     margin: auto;
     padding: 1rem;
-    border: 1px solid #3b0062;
+    border: 1px solid #dfe3ee;
     border-radius: 5px;
+    box-shadow: 0 0.5px 0.5px 0 rgba(0, 0, 0, 0.1), 0 2px 6px 0 rgba(0, 0, 0, 0.1);
   }
   
   @media (min-width: 768px) {

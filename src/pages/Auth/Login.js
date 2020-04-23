@@ -76,7 +76,7 @@ class Login extends Component {
         >
           <Input
             id="email"
-            label="Your E-Mail"
+            label="Email"
             type="email"
             control="input"
             onChange={this.inputChangeHandler}

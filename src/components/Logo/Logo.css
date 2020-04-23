@@ -2,6 +2,13 @@
     font-size: 1rem;
     font-weight: bold;
     border: 1px solid white;
+    border-radius: 5px;
     padding: 0.5rem;
     color: white;
+    text-decoration: none;
+}
+
+.logo:hover {
+    border: 1px solid #dfe3ee;
+    color: #dfe3ee;
 }
