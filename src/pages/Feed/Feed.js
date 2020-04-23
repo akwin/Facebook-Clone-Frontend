@@ -359,7 +359,7 @@ class Feed extends Component {
           <form onSubmit={this.statusUpdateHandler}>
             <Input
               type="text"
-              placeholder="What's on your mind?"
+              placeholder="What's on your mind? "
               control="input"
               onChange={this.statusInputChangeHandler}
               value={this.state.status}
